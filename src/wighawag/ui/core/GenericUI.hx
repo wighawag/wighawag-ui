@@ -6,10 +6,9 @@
 * 
 ****/
 
-class Main {
+package wighawag.ui.core;
+interface GenericUI {
+    function get<T : UIElement>(id : String) : T;
 
-	public static function main():Void{
-	    trace("main starting");
-	}
-
+    function dispose() : Void;
 }

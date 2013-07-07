@@ -6,10 +6,7 @@
 * 
 ****/
 
-class Main {
-
-	public static function main():Void{
-	    trace("main starting");
-	}
-
+package wighawag.ui.core;
+interface UIElement {
+    public var id(default, null) : String;
 }
