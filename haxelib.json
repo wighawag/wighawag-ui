@@ -1,12 +1,12 @@
 {
   "name": "wighawag-ui",
   "url" : "https://github.wighawag/wighawag-ui/",
-  "license": "Wighawag",
+  "license": "GPL",
   "tags": ["cross"],
   "description": "",
   "version": "0.0.1",
   "releasenote": "",
   "contributors": ["wighawag"],
-  "dependencies": {"wighawag-report":""},
+  "dependencies": {"wighawag-report":"0.0.1"},
   "classPath":"src"
 }
